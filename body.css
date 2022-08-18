@@ -1,4 +1,11 @@
 body{
     font-family:Proxima Nova,helvetica neue,helvetica,arial,sans-serif ;
     margin:0px 0px ;
+    background-image: url(/images/greg-campbell-gXVhCRXknnw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    transition-property: background;
 }

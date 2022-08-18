@@ -1,0 +1,16 @@
+.middleText{
+
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    top:25% ;
+    bottom: 50%;
+
+
+}
+.mainBody{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    border: 1px solid black;
+}
