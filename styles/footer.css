@@ -1,0 +1,62 @@
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    height: 56px;
+}
+.footerGrid{
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: auto;
+    position: relative;
+    top: 25%;
+    bottom: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footerGrid>div>a{
+    color: hsla(0,0%,100%,.6);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* padding: 10px; */
+}
+
+.smugFlick {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "smugMug plus flickr";
+    font-size: 14px;
+    color: hsla(0,0%,100%,.6);
+}
+
+.smugMug{
+    grid-area: smugMug;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+}
+
+.plus{
+    grid-area: plus;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.Flickr{
+    grid-area: flickr;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0px;
+}
+
+.Help-forum{
+    display: flex;
+    justify-content: center;
+}
