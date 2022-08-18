@@ -10,10 +10,11 @@ header{
 .headerIcon{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .headerIcon>img{
-    height: 54px;
-    width: 90px;
+    height: 25px;
+    width: 110px;
 }
 .headerNav{
     display: flex;
