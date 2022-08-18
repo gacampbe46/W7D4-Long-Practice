@@ -19,10 +19,31 @@ header{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
 }
 #searchNav{
     display: inline-flex;
 }
 .navButtons{
     display: inline-flex;
+
+}
+#signUpButton{
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 20px;
+    background-color: white;
+    font-size: 16px;
+
+}
+#logInButton{
+    padding-right: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
 }
