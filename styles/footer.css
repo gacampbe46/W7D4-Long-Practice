@@ -3,8 +3,17 @@ footer{
     bottom: 0px;
     background-color: black;
     height: 56px;
+    width: 100%;
 }
-.footerGrid{
+.footerFlex{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 25%;
+    bottom: 25%;
+    align-items: center;
+}
+/* .footerGrid{
     display: grid;
     grid-template-columns: repeat(15, 1fr);
     grid-template-rows: auto;
@@ -13,9 +22,9 @@ footer{
     bottom: 25%;
     padding-left: 10px;
     padding-right: 10px;
-}
+} */
 
-.footerGrid>div>a{
+.footerFlex>div>a{
     color: hsla(0,0%,100%,.6);
     font-size: 14px;
     display: flex;

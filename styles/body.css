@@ -7,5 +7,13 @@ body{
     background-position: center;
     height: 100vh;
     width: 100vw;
-    transition-property: background;
+    animation: background-image;
 }
+
+@keyframes slideshow {
+    0% {background-image: url("images/clay-banks-e8MPXjRwCvI-unsplash.jpg")}
+    25% {background-image: url("images/daniel-olah-6KQETG8J-zI-unsplash.jpg")}
+    50% {background-image: url("images/intricate-explorer-hlj6xJG30FE-unsplash.jpg")}
+    75% {background-image: url("images/matt-drenth-7e8sxYGu7x4-unsplash.jpg")}
+    100% {background-image: url("images/greg-campbell-gXVhCRXknnw-unsplash.jpg")}
+    }
